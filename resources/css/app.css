@@ -1,0 +1,11 @@
+/* Custom Styles Goes Here */
+
+.required {
+  position: relative !important;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  position: absolute;
+}
